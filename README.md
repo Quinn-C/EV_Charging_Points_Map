@@ -30,4 +30,4 @@
 <img align="left" alt="React" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" style="padding-right:15px;" /> 
 <img align="left" alt="React" width="26px" src="./public/auth0.png" style="padding-right:15px;" />  
 
-# EV_Charging_Points_Map
+
