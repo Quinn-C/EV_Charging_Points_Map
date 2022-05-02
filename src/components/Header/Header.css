@@ -1,0 +1,21 @@
+.Header {
+    width: 100%;
+    height: 11vh;
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .Menu {
+    justify-self: center;
+    align-self: center;
+  }
+
+  .Avatar {
+    justify-content: flex-end;
+    margin-right: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 10em;
+    width: 10em;
+    image-rendering: crisp-edges;
+  }
