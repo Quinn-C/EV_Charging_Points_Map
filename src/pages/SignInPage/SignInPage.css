@@ -1,0 +1,17 @@
+
+.SignInPage{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+ 
+.ParticleBG{
+    z-index: 1;
+}
+
+.particles-bg-canvas-self{
+    background: aquamarine;
+
+  }
