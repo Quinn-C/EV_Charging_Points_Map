@@ -6,8 +6,8 @@ const Header = () =>{
 
     return(
     <div className="Header">
-        <Menu className="Menu"/>
-        <Avatar className="Avatar"/>
+        <Menu/>
+        <Avatar/>
     </div>
     )
     

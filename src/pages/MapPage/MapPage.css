@@ -1,7 +1,23 @@
 
-.map{
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    "header header header header header"
+    "googleMap googleMap googleMap googleMap googleMap"
+    "googleMap googleMap googleMap googleMap googleMap"
+    "googleMap googleMap googleMap googleMap googleMap";
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+}
+
+.Map{
+    grid-area: googleMap;
     display: flex;
-    justify-content: flex-end;
     align-items: center;
-    position:absolute
+    justify-content: center;
+}
+
+.Header{
+    grid-area: header;
 }

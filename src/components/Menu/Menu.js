@@ -15,6 +15,7 @@ const Menu = () => {
 
     return (
         <>
+      <div className="Menu">
       <IconContext.Provider value={{ color: '#111D4A' }} >
         <div className='navbar'>
           <Link to='#' className='menu-bars'>
@@ -54,34 +55,9 @@ const Menu = () => {
           </ul>
         </nav>
       </IconContext.Provider>
+      </div>
     </>
-        // <div>
-        //     <div className="navbar">
-        //         <Link to="#" className="menu-bars">
-        //             <FaIcons.FaBars onClick={showSidebar}/>
-        //         </Link>
-        //     </div>
 
-        //     <nav className="overlay-content">
-        //         <Link to="/" aria-label="home">
-        //             Home
-        //         </Link>
-        //         <Link to="/fleet" aria-label="fleet">
-        //             Fleet
-        //         </Link>
-        //         <Link to="/infrastructure" aria-label="infrastructure">
-        //         Infrastructure
-        //         </Link>
-        //         <Link to="/sales" aria-label="sales">
-        //             Sales
-        //         </Link>
-        //     </nav>
-        // </div>
-
-        
-  
-        /* <i id="menuIcon" onClick={openSidenav} className="fa-solid fa-bars"></i> */
-      
     );
   };
   export default Menu;

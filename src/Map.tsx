@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { GoogleMap, useJsApiLoader, Polyline, Marker, InfoWindow  } from '@react-google-maps/api';
 
 const containerStyle = {
-  width: '600px',
+  width: '1400px',
   height: '600px'
 };
 
@@ -168,7 +168,8 @@ function Map() {
   }
 
   return isLoaded ? (
-      <GoogleMap
+    <div className = 'Map'>
+            <GoogleMap
         mapContainerStyle={containerStyle}
         center={center}
         zoom={14}
@@ -260,6 +261,8 @@ function Map() {
             )}
           </Marker>
       </GoogleMap>
+    </div>
+
   ) : <></>
 }
 

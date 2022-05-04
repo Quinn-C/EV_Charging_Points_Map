@@ -1,12 +1,13 @@
 import Header from "../../components/Header/header.js";
 import Map from "../../Map";
+import "./MapPage.css";
 
 const MapPage = () => {
 
   return (
-    <div className="map-page">
+    <div className="grid-container">
       <Header/>
-      <Map className='map'/>
+      <Map/>
     </div>
   );
 };
