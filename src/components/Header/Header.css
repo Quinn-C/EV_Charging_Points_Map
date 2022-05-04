@@ -8,6 +8,7 @@
   .Menu {
     grid-area: left;
 
+
   }
 
   .Avatar {
@@ -18,5 +19,6 @@
     margin-top: 10px;
     cursor: pointer;
     border-radius: 50%;
+
 
   }
