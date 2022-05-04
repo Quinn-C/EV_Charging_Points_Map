@@ -9,7 +9,8 @@ function UserInfoWidget(){
         setInfoWidget(!infoWidget)
     }
 
-    const { user, isAuthenticated, isLoading } = useAuth0();
+    const { user, isLoading } = useAuth0();
+    const { logout } = useAuth0();
 
     if (isLoading) {
       return <div>Loading ...</div>;
@@ -24,6 +25,9 @@ function UserInfoWidget(){
                 <img className="profilePic" src={user.picture} alt={user.name} />
                 <h1 className="profileName">{user.name}</h1>
                 <h2>Software Engineer</h2>
+                <a href={window.location.origin}className='signout-button' onClick={() => logout({ returnTo: window.location.origin })}>
+      Sign Out
+    </a>
 
             </div>
 
