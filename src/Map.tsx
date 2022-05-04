@@ -1,6 +1,5 @@
 import React from 'react'
-import dotenv from 'dotenv';
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import { GoogleMap, useJsApiLoader, Polyline, Marker, InfoWindow  } from '@react-google-maps/api';
 
 const containerStyle = {

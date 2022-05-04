@@ -25,7 +25,7 @@ function UserInfoWidget(){
                 <img className="profilePic" src={user.picture} alt={user.name} />
                 <h1 className="profileName">{user.name}</h1>
                 <h2>Software Engineer</h2>
-                <a href={window.location.origin}className='signout-button' onClick={() => logout({ returnTo: window.location.origin })}>
+                <a href={window.location.origin} className='signout-button' onClick={() => logout({ returnTo: window.location.origin })}>
       Sign Out
     </a>
 
