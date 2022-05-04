@@ -1,5 +1,5 @@
 import Menu from "../Menu/Menu";
-import Avatar from "../Avatar/Avatar";
+//import Avatar from "../Avatar/Avatar";
 import "./Header.css"
 
 const Header = () =>{
@@ -7,7 +7,7 @@ const Header = () =>{
     return(
     <div className="Header">
         <Menu/>
-        <Avatar/>
+        {/* <Avatar/> */}
     </div>
     )
     
